@@ -24,6 +24,10 @@ title: Seldon VM
 
         wget http://static.seldon.io/seldonvm/Vagrantfile
 
+1. Initialise the directory and install an Ubuntu box.
+
+        vagrant init hashicorp/precise64
+
 1. Startup the vagrant instance of the box.
 
         vagrant up
